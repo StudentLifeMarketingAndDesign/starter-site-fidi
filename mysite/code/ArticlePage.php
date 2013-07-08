@@ -16,7 +16,7 @@ class ArticlePage extends Page {
 		
 		return $fields;
 	}
-
+	static $icon = "framework/docs/en/tutorials/_images/treeicons/news-file.gif";
 }
 class ArticlePage_Controller extends Page_Controller {
 }

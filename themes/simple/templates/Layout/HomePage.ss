@@ -8,4 +8,7 @@
 	</article>
 		$Form
 		$PageComments
+		<% loop $LatestNews %>
+			<% include ArticleTeaser %>
+		<% end_loop %>
 </div>

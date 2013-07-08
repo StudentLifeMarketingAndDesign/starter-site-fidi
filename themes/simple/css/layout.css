@@ -170,8 +170,8 @@ body {
 
 	.search-bar {
 	    position: absolute;
-	    right: 28px;
-	    top: 32px;
+	    right: 35px;
+	    top: 10px;
 	}
 		.search-bar #Search {
 			margin: 0;

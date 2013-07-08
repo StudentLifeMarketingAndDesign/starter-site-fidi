@@ -12,7 +12,7 @@ Change it, enhance it and most importantly enjoy it!
 <!--[if IE 6 ]><html lang="$ContentLocale" class="ie ie6"><![endif]-->
 <!--[if IE 7 ]><html lang="$ContentLocale" class="ie ie7"><![endif]-->
 <!--[if IE 8 ]><html lang="$ContentLocale" class="ie ie8"><![endif]-->
-<head>
+<head> 
 	<% base_tag %>
 	<title><% if $MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
 	<meta charset="utf-8">
@@ -30,7 +30,7 @@ Change it, enhance it and most importantly enjoy it!
 </head>
 <body class="$ClassName<% if not $Menu(2) %> no-sidebar<% end_if %>">
 <% include Header %>
-<div class="main" role="main">
+<div class="main" role="main"> 
 	<div class="inner typography line">
 		$Layout
 	</div>

@@ -137,7 +137,7 @@ body {
 
 /* HEADER */
 .header {
-    background: #161616;
+    background: #2ebeb0;
 }
 	.header .inner {
 	    padding-top: 45px;
@@ -391,7 +391,7 @@ body {
 		.main .secondary li a:hover,
 		.main .secondary li.section a:hover,
 		.main .secondary li.current a:hover {
-			color: #b80000;
+			color: #00acb8;
 		}
 
 

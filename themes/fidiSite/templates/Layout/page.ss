@@ -1,3 +1,12 @@
-<h1>$Title</h1>
-$Content
-$Form
+<div class="CContainer">
+	<article>
+		<h1>
+			$Title
+		</h1>
+		<div class="content">
+			$Content
+		</div>
+	</article>
+		$Form
+		$PageComments
+</div>

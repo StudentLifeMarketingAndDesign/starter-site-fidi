@@ -1,0 +1,76 @@
+
+/* These are the default styles for the Simple theme */
+body {
+	font-family: 'Lucida Grande', Geneva, Verdana, 'Lucida Sans';
+ 
+    font-size: 13px; /* This overrides the browsers default font size */
+    line-height: 20px; /* If you change the font-size make sure you change the line-height value as well - the usual ratio is around 1.5 (font-size x 1.5 = line-height) */
+
+    
+}
+
+.Container h1 {
+	color: #080808;
+	font-family: 'Lucida Grande', Geneva, Verdana, 'Lucida Sans';
+
+}
+
+.CContainer h1{
+	color: #192818; 
+	font-size: 25px; 
+}
+
+/* Footer */
+.footer p {
+	color: #e8e2d5;
+	text-align: center;
+	font-size: 8px;
+	line-height: 12px;
+	
+}
+
+
+
+body a { text-decoration: none; } /* this removes the underline from all links */
+
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
+    font-family: Georgia, "Times New Roman", Times, serif; /* This references one of the custom @font-face fonts - the other fonts that are referenced are fallbacks for browsers that don't support @fontface */
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: #ff8100;
+}
+
+
+/* Headers */
+.typography h1 {
+  font-size: 36px;
+  line-height: 45px;
+  margin: 0 0 25px 0;
+  border-bottom: 1px solid #080808;
+  padding-bottom: 5px;
+}
+.typography h2 { font-size: 28px; line-height: 35px; margin-bottom: 15px; }
+.typography h3 { font-size: 22px; line-height: 30px; margin-bottom: 10px; }
+.typography h4 { font-size: 18px; line-height: 25px; margin-bottom: 5px; }
+.typography h5 { font-size: 16px; line-height: 20px; margin-bottom: 5px; }
+.typography h6 { font-size: 14px; line-height: 20px; font-weight: bold; margin-bottom: 5px; }
+
+/* PARAGRAGHS */
+.typography  p { font-size: 13px; line-height: 20px; margin: 0 0 20px; }
+
+/* LINKS */
+.typography a, 
+.typography a.intro {
+    color: #B80000;
+    text-decoration: none;
+}
+  .typography a:hover { 
+    color: #D80000;
+    border-bottom: 1px dashed #B80000;
+  }
+  .typography a:focus { }

@@ -26,3 +26,7 @@ i18n::set_locale('en_US');
 if (class_exists('SiteTree')) SiteTree::enable_nested_urls();
 
 FulltextSearchable::enable();
+
+if(Director::isLive()) {
+	Director::forceSSL(array('/^Security/','/^admin/'));
+}
